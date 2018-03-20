@@ -31,7 +31,7 @@ class Song
   def self.genre_count
     genre_count = {}
     @@genre_count.each do |genre, number_of_songs|
-      genre_count << {:genre => number_of_songs}
+      genre_count << {genre => number_of_songs}
     end
     genre_count
   end
